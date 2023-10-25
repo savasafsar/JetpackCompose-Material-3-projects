@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "StarbucksUI"
+rootProject.name = "materialdesign"
 include(":app")
  
