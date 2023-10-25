@@ -25,6 +25,7 @@ fun AppIconComponent(
     tint: Color = Color.Unspecified,
     background: Color = LightGray,
     onClick: () -> Unit = {}
+
 ) {
     Box(
         modifier = modifier
