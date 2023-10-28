@@ -91,7 +91,7 @@ fun HomeScreen(
                 item {
                     TextDescription()
                     Box {
-                        SearchBarScreen(text = searc, onValueChange = { search = it })
+                        SearchBarScreen(text = search, onValueChange = { search = it })
                         AppIconComponent(
                             icon = R.drawable.filter, background = DarkGreen,
                             modifier = Modifier
